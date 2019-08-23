@@ -59,7 +59,3 @@ I have intentionally left the `./.env` file in this package. If you want to chan
 <p>Just a side note: If this were something going to production, I would be MUCH more cautious with error handling and data types; but to for time sake, and because one of the goals is to try and keep it simple, I've skipped over some of error handling/checking that I would normally do. Also, I would normally setup a file where I would cache the necessary data; but again, for the sake of time and the project, each request to the app will send out a request to the Swapi API.</p>
 
 <p>Please let me know if you have any problems or questions!</p>
-
-Tyson Glazier<br>
-tysonglazier@gmail.com<br>
-801.907.1143
