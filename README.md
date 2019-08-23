@@ -56,6 +56,6 @@ There are only two endpoints, 'people' and 'planets', which default url path is 
 
 I have intentionally left the `./.env` file in this package. If you want to change the port (default is '8069'), api base url (default is '/api'), or domain, you can configure it in this file.
 
-<p>Just a side note: If this were something going to production, I would be MUCH more cautious with error handling and data types; but to for time sake, and because one of the goals is to try and keep it simple, I've skipped over some of error handling/checking that I would normally do. Also, I would normally setup a file where I would cache the necessary data; but again, for the sake of time and the project, each request to the app will send out a request to the Swapi API.</p>
+<p>Just a side note: If this were something going to production, I would be MUCH more cautious with error handling and data types; but for time sake, and because one of the goals is to try and keep it simple, I've skipped over some of the error handling/checking that I would usually do. Also, I would normally setup a file where I would cache the necessary data &mdash; but again, for the sake of time and this project, each request to the app api will send out a new request to the Swapi API.</p>
 
 <p>Please let me know if you have any problems or questions!</p>
